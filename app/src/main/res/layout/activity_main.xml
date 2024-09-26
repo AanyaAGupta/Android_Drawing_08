@@ -19,9 +19,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/reverse_y"
+        android:id="@+id/jump"
+        android:text="@string/jump_string"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:onClick="reverseY"/>
+        app:layout_constraintRight_toRightOf="parent"
+        android:onClick="jump"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

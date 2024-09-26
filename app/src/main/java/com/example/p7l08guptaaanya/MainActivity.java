@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         drawview = findViewById(R.id.drawView);
     }
 
-    public void reverseY(View view) {
-        drawview.setdY(drawview.getdY()*-1);
+    public void jump(View view){
+        drawview.jump();
     }
 }
